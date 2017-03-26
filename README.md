@@ -9,7 +9,10 @@ brew install yarn
 
 ## Run this app
 
-`yarn start`
+```
+yarn install
+yarn start
+```
 
 ## Steps taken to produce this project
 
