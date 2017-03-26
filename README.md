@@ -1,12 +1,19 @@
 
 
-##
+## Setup
 
+```bash
+brew update
+brew install yarn
+```
+
+## Run this app
+
+`yarn start`
 
 ## Steps taken to produce this project
 
-
-An application built using the [scotch.io tutorial](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+This application was built using the [scotch.io tutorial](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel), but I wanted to extract a few things that were done to get this project up and running:
 
 ```bash
 yarn init
@@ -19,3 +26,11 @@ touch .babelrc # insert babel config w/ text editor
 
 yarn add html-webpack-plugin
 ```
+
+## References
+
+- https://yarnpkg.com/en/docs/install
+- https://webpack.github.io/docs/
+- https://webpack.js.org/
+- https://babeljs.io/
+- https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
